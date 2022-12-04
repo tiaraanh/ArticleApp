@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct IconSplashSwiftUIApp: App {
+struct ArticleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

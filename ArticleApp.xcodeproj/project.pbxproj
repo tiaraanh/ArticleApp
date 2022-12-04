@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		949C281D2938677500A25A63 /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949C281C2938677500A25A63 /* ArticleListView.swift */; };
+		949C2820293867CD00A25A63 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949C281F293867CD00A25A63 /* Article.swift */; };
+		949C28232938854900A25A63 /* ActivityView in Frameworks */ = {isa = PBXBuildFile; productRef = 949C28222938854900A25A63 /* ActivityView */; };
+		949C28262938E35D00A25A63 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 949C28252938E35D00A25A63 /* CachedAsyncImage */; };
+		949C2848293B79A700A25A63 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949C2847293B79A700A25A63 /* SettingsView.swift */; };
+		949C284A293C2F6C00A25A63 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949C2849293C2F6C00A25A63 /* Loan.swift */; };
+		949C284C293C3A7900A25A63 /* LoanStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949C284B293C3A7900A25A63 /* LoanStore.swift */; };
+		949C284E293C8BBD00A25A63 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949C284D293C8BBD00A25A63 /* ListRowView.swift */; };
+		949C2850293C904500A25A63 /* LoanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949C284F293C904500A25A63 /* LoanListView.swift */; };
 		94F0952F2936360000D256A2 /* IconSplashSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F0952E2936360000D256A2 /* IconSplashSwiftUIApp.swift */; };
-		94F095312936360000D256A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F095302936360000D256A2 /* ContentView.swift */; };
+		94F095312936360000D256A2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F095302936360000D256A2 /* MainView.swift */; };
 		94F095332936360300D256A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F095322936360300D256A2 /* Assets.xcassets */; };
 		94F095362936360300D256A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F095352936360300D256A2 /* Preview Assets.xcassets */; };
+		94F0953D293636ED00D256A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F0953C293636ED00D256A2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		949C281C2938677500A25A63 /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
+		949C281F293867CD00A25A63 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		949C2847293B79A700A25A63 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		949C2849293C2F6C00A25A63 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+		949C284B293C3A7900A25A63 /* LoanStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanStore.swift; sourceTree = "<group>"; };
+		949C284D293C8BBD00A25A63 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		949C284F293C904500A25A63 /* LoanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanListView.swift; sourceTree = "<group>"; };
 		94F0952B2936360000D256A2 /* IconSplashSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconSplashSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F0952E2936360000D256A2 /* IconSplashSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSplashSwiftUIApp.swift; sourceTree = "<group>"; };
-		94F095302936360000D256A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		94F095302936360000D256A2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		94F095322936360300D256A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94F095352936360300D256A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94F0953C293636ED00D256A2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +44,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				949C28232938854900A25A63 /* ActivityView in Frameworks */,
+				949C28262938E35D00A25A63 /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		949C281B2938676200A25A63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				949C281C2938677500A25A63 /* ArticleListView.swift */,
+				949C284D293C8BBD00A25A63 /* ListRowView.swift */,
+				949C284F293C904500A25A63 /* LoanListView.swift */,
+				949C2847293B79A700A25A63 /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		949C281E293867A100A25A63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				949C281F293867CD00A25A63 /* Article.swift */,
+				949C2849293C2F6C00A25A63 /* Loan.swift */,
+				949C284B293C3A7900A25A63 /* LoanStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		94F095222936360000D256A2 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +92,11 @@
 		94F0952D2936360000D256A2 /* IconSplashSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				949C281E293867A100A25A63 /* Model */,
+				949C281B2938676200A25A63 /* View */,
 				94F0952E2936360000D256A2 /* IconSplashSwiftUIApp.swift */,
-				94F095302936360000D256A2 /* ContentView.swift */,
+				94F095302936360000D256A2 /* MainView.swift */,
+				94F0953C293636ED00D256A2 /* LaunchScreen.storyboard */,
 				94F095322936360300D256A2 /* Assets.xcassets */,
 				94F095342936360300D256A2 /* Preview Content */,
 			);
@@ -83,6 +127,10 @@
 			dependencies = (
 			);
 			name = IconSplashSwiftUI;
+			packageProductDependencies = (
+				949C28222938854900A25A63 /* ActivityView */,
+				949C28252938E35D00A25A63 /* CachedAsyncImage */,
+			);
 			productName = IconSplashSwiftUI;
 			productReference = 94F0952B2936360000D256A2 /* IconSplashSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +159,10 @@
 				Base,
 			);
 			mainGroup = 94F095222936360000D256A2;
+			packageReferences = (
+				949C28212938854900A25A63 /* XCRemoteSwiftPackageReference "ActivityView" */,
+				949C28242938E35D00A25A63 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
 			productRefGroup = 94F0952C2936360000D256A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F0953D293636ED00D256A2 /* LaunchScreen.storyboard in Resources */,
 				94F095362936360300D256A2 /* Preview Assets.xcassets in Resources */,
 				94F095332936360300D256A2 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +190,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94F095312936360000D256A2 /* ContentView.swift in Sources */,
+				949C2848293B79A700A25A63 /* SettingsView.swift in Sources */,
+				949C284A293C2F6C00A25A63 /* Loan.swift in Sources */,
+				949C2820293867CD00A25A63 /* Article.swift in Sources */,
+				949C2850293C904500A25A63 /* LoanListView.swift in Sources */,
+				949C284E293C8BBD00A25A63 /* ListRowView.swift in Sources */,
+				94F095312936360000D256A2 /* MainView.swift in Sources */,
+				949C281D2938677500A25A63 /* ArticleListView.swift in Sources */,
 				94F0952F2936360000D256A2 /* IconSplashSwiftUIApp.swift in Sources */,
+				949C284C293C3A7900A25A63 /* LoanStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +399,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		949C28212938854900A25A63 /* XCRemoteSwiftPackageReference "ActivityView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUI-Plus/ActivityView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		949C28242938E35D00A25A63 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		949C28222938854900A25A63 /* ActivityView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 949C28212938854900A25A63 /* XCRemoteSwiftPackageReference "ActivityView" */;
+			productName = ActivityView;
+		};
+		949C28252938E35D00A25A63 /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 949C28242938E35D00A25A63 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 94F095232936360000D256A2 /* Project object */;
 }
