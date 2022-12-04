@@ -87,7 +87,7 @@ extension SettingsView {
             SettingsRow(name: "Developer", content: "Tiara")
             SettingsRow(name: "Designer", content: "Tiara")
             SettingsRow(name: "Compatibility", content: "iOS 16")
-            SettingsRow(name: "Website", linkLabel: "iSwift Bootcamp", linkDestination: "https://medium.com/@tiaranh")
+            SettingsRow(name: "Website", linkLabel: "medium", linkDestination: "https://medium.com/@tiaranh")
             SettingsRow(name: "Twitter", linkLabel: "@swiftvoyager", linkDestination: "twitter.com/swiftvoyager")
             SettingsRow(name: "SwiftUI", content: "4.0")
             SettingsRow(name: "Version", content: "1.1.0")

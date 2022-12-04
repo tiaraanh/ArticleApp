@@ -1,6 +1,6 @@
 //
 //  Article.swift
-//  IconSplashSwiftUI
+//  ArticleApp
 //
 //  Created by Tiara H on 01/12/22.
 //

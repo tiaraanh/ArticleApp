@@ -16,7 +16,7 @@
 		949C284C293C3A7900A25A63 /* LoanStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949C284B293C3A7900A25A63 /* LoanStore.swift */; };
 		949C284E293C8BBD00A25A63 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949C284D293C8BBD00A25A63 /* ListRowView.swift */; };
 		949C2850293C904500A25A63 /* LoanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949C284F293C904500A25A63 /* LoanListView.swift */; };
-		94F0952F2936360000D256A2 /* IconSplashSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F0952E2936360000D256A2 /* IconSplashSwiftUIApp.swift */; };
+		94F0952F2936360000D256A2 /* ArticleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F0952E2936360000D256A2 /* ArticleApp.swift */; };
 		94F095312936360000D256A2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F095302936360000D256A2 /* MainView.swift */; };
 		94F095332936360300D256A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F095322936360300D256A2 /* Assets.xcassets */; };
 		94F095362936360300D256A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F095352936360300D256A2 /* Preview Assets.xcassets */; };
@@ -31,8 +31,8 @@
 		949C284B293C3A7900A25A63 /* LoanStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanStore.swift; sourceTree = "<group>"; };
 		949C284D293C8BBD00A25A63 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		949C284F293C904500A25A63 /* LoanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanListView.swift; sourceTree = "<group>"; };
-		94F0952B2936360000D256A2 /* IconSplashSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconSplashSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		94F0952E2936360000D256A2 /* IconSplashSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSplashSwiftUIApp.swift; sourceTree = "<group>"; };
+		94F0952B2936360000D256A2 /* ArticleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArticleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F0952E2936360000D256A2 /* ArticleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleApp.swift; sourceTree = "<group>"; };
 		94F095302936360000D256A2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		94F095322936360300D256A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94F095352936360300D256A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		94F095222936360000D256A2 = {
 			isa = PBXGroup;
 			children = (
-				94F0952D2936360000D256A2 /* IconSplashSwiftUI */,
+				94F0952D2936360000D256A2 /* ArticleApp */,
 				94F0952C2936360000D256A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,23 +84,23 @@
 		94F0952C2936360000D256A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94F0952B2936360000D256A2 /* IconSplashSwiftUI.app */,
+				94F0952B2936360000D256A2 /* ArticleApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		94F0952D2936360000D256A2 /* IconSplashSwiftUI */ = {
+		94F0952D2936360000D256A2 /* ArticleApp */ = {
 			isa = PBXGroup;
 			children = (
 				949C281E293867A100A25A63 /* Model */,
 				949C281B2938676200A25A63 /* View */,
-				94F0952E2936360000D256A2 /* IconSplashSwiftUIApp.swift */,
+				94F0952E2936360000D256A2 /* ArticleApp.swift */,
 				94F095302936360000D256A2 /* MainView.swift */,
 				94F0953C293636ED00D256A2 /* LaunchScreen.storyboard */,
 				94F095322936360300D256A2 /* Assets.xcassets */,
 				94F095342936360300D256A2 /* Preview Content */,
 			);
-			path = IconSplashSwiftUI;
+			path = ArticleApp;
 			sourceTree = "<group>";
 		};
 		94F095342936360300D256A2 /* Preview Content */ = {
@@ -114,9 +114,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		94F0952A2936360000D256A2 /* IconSplashSwiftUI */ = {
+		94F0952A2936360000D256A2 /* ArticleApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94F095392936360300D256A2 /* Build configuration list for PBXNativeTarget "IconSplashSwiftUI" */;
+			buildConfigurationList = 94F095392936360300D256A2 /* Build configuration list for PBXNativeTarget "ArticleApp" */;
 			buildPhases = (
 				94F095272936360000D256A2 /* Sources */,
 				94F095282936360000D256A2 /* Frameworks */,
@@ -126,13 +126,13 @@
 			);
 			dependencies = (
 			);
-			name = IconSplashSwiftUI;
+			name = ArticleApp;
 			packageProductDependencies = (
 				949C28222938854900A25A63 /* ActivityView */,
 				949C28252938E35D00A25A63 /* CachedAsyncImage */,
 			);
 			productName = IconSplashSwiftUI;
-			productReference = 94F0952B2936360000D256A2 /* IconSplashSwiftUI.app */;
+			productReference = 94F0952B2936360000D256A2 /* ArticleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -150,7 +150,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 94F095262936360000D256A2 /* Build configuration list for PBXProject "IconSplashSwiftUI" */;
+			buildConfigurationList = 94F095262936360000D256A2 /* Build configuration list for PBXProject "ArticleApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -167,7 +167,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94F0952A2936360000D256A2 /* IconSplashSwiftUI */,
+				94F0952A2936360000D256A2 /* ArticleApp */,
 			);
 		};
 /* End PBXProject section */
@@ -197,7 +197,7 @@
 				949C284E293C8BBD00A25A63 /* ListRowView.swift in Sources */,
 				94F095312936360000D256A2 /* MainView.swift in Sources */,
 				949C281D2938677500A25A63 /* ArticleListView.swift in Sources */,
-				94F0952F2936360000D256A2 /* IconSplashSwiftUIApp.swift in Sources */,
+				94F0952F2936360000D256A2 /* ArticleApp.swift in Sources */,
 				949C284C293C3A7900A25A63 /* LoanStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,7 +326,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"IconSplashSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ArticleApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 59BS9RNX2H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -355,7 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"IconSplashSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ArticleApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 59BS9RNX2H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -380,7 +380,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		94F095262936360000D256A2 /* Build configuration list for PBXProject "IconSplashSwiftUI" */ = {
+		94F095262936360000D256A2 /* Build configuration list for PBXProject "ArticleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94F095372936360300D256A2 /* Debug */,
@@ -389,7 +389,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94F095392936360300D256A2 /* Build configuration list for PBXNativeTarget "IconSplashSwiftUI" */ = {
+		94F095392936360300D256A2 /* Build configuration list for PBXNativeTarget "ArticleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94F0953A2936360300D256A2 /* Debug */,
