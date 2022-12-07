@@ -25,22 +25,24 @@ struct MainView: View {
                 .tag(Tabs.browser)
                     
                 
-                VStack {
-                    Text("Gallery".uppercased())
-                        .font(.system(.largeTitle, design: .rounded))
-                    
-                    Button {
-                        selectedTab = Tabs.settings
-                    } label: {
-                        Text("Show Settings")
-                            .font(.system(.headline, design: .rounded))
-                    }
-                }
+//                VStack {
+//                    Text("Gallery".uppercased())
+//                        .font(.system(.largeTitle, design: .rounded))
+//                    
+//                    Button {
+//                        selectedTab = Tabs.settings
+//                    } label: {
+//                        Text("Show Settings")
+//                            .font(.system(.headline, design: .rounded))
+//                    }
+//                }
+                
+                GalleryView()
                 .tabItem {
                     Image(systemName: "play.rectangle")
                     Text("Gallery")
                 }
-                .tag(Tabs.watch)
+                .tag(Tabs.gallery)
                 
                 
                 LoanListView()
@@ -77,7 +79,7 @@ struct MainView_Previews: PreviewProvider {
 // MARK: - ENUM
 enum Tabs: String {
     case browser
-    case watch
+    case gallery
     case loans
     case settings
 }
