@@ -26,7 +26,7 @@ struct MainView: View {
                     
                 
                 VStack {
-                    Text("Watch".uppercased())
+                    Text("Gallery".uppercased())
                         .font(.system(.largeTitle, design: .rounded))
                     
                     Button {
@@ -38,7 +38,7 @@ struct MainView: View {
                 }
                 .tabItem {
                     Image(systemName: "play.rectangle")
-                    Text("Watch")
+                    Text("Gallery")
                 }
                 .tag(Tabs.watch)
                 
